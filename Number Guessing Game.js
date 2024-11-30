@@ -1,7 +1,7 @@
 const minimum = 1;
 const maximum = 10;
 const ran = Math.floor(Math.random()*(maximum-minimum+1)) + minimum;
-let guess;
+let guess; 
 let guessed = false;
 let atempts = 0;
 while(!guessed)
